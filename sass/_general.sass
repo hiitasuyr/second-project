@@ -1,0 +1,353 @@
+.container
+	max-width: calc(1170px + 115px *2)
+	margin-inline: auto
+	padding-inline: 20px
+.navigation
+	display: flex
+	justify-content: space-between
+	align-items: center
+	height: 105px
+	&__logo
+		color: $blue
+		font-family: Poppins
+		font-size: 24px
+		font-weight: 700
+		text-align: center
+	&__list
+		display: flex
+		justify-content: center
+		align-items: center
+		column-gap: 36px
+	&__items
+		a
+			color: $lightgray
+			font-family: DM Sans
+			font-size: 16px
+			font-weight: 400
+	&__search
+		&-btn
+			margin-right: 11px
+			color: $lightgray
+			background-color: rgba(0, 0, 0, 0.0)
+			border: none
+		&-find
+			width: 100px
+			background-color: rgba(0, 0, 0, 0.0)
+			border: none
+			outline: none
+	&__login
+		display: flex
+		justify-content: center
+		align-items: center
+		column-gap: 34px
+.ecomerce
+	display: flex
+	justify-content: space-between
+	border-top: 2px solid rgb(235, 234, 237)
+.categories
+	margin-top: 50px
+	&__list
+		display: flex
+		flex-direction: column
+		row-gap: 18px
+	&__items
+		color: $blue
+		font-family: DM Sans
+		font-size: 18px
+		font-weight: 500
+		a
+			color: $lightgray
+			font-family: DM Sans
+			font-size: 16px
+			font-weight: 400
+.products
+	position: relative
+	margin-top: 28px
+	&__text
+		position: absolute
+		top: 38px
+		left: 47px
+	&__title
+		max-width: 380px
+		color: $white
+		font-family: DM Sans
+		font-size: 32px
+		font-weight: 700
+	&__about
+		margin-top: 20px
+		max-width: 160px
+		color: $white
+		font-family: DM Sans
+		font-size: 16px
+		font-weight: 400
+.stuff
+	margin-top: 50px
+	&__main
+		display: flex
+		flex-direction: column
+		row-gap: 20px
+	&__title
+		color: $blue
+		font-family: DM Sans
+		font-size: 18px
+		font-weight: 500
+	&__items
+		display: flex
+		justify-content: space-between
+		column-gap: 18px
+		&-name
+			color: $blue
+			font-family: DM Sans
+			font-size: 14px
+			font-weight: 700
+			text-transform: uppercase
+		&-about
+			max-width: 100px
+			color: $lightgray
+			font-family: DM Sans
+			font-size: 16px
+			font-weight: 500
+		&-text
+			display: flex
+			flex-direction: column
+			row-gap: 7px
+.button
+	color: $blue
+	cursor: pointer
+	&:hover
+		background-color: $lightgray
+		transition: 0.3s all
+.contents
+	min-height: 520px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	&__main
+		max-width: 268px
+	&__title
+		color: $blue
+		font-family: DM Sans
+		font-size: 22px
+		font-weight: 500
+	&__text
+		margin: 20px 0 60px 0
+		color: $lightgray
+		font-family: DM Sans
+		font-size: 16px
+		font-weight: 400
+	&__button
+		width: 110px
+		height: 40px
+		border: 2px solid rgb(235, 234, 237)
+		border-radius: 100px
+		background: rgb(233, 58, 125)
+	&__video
+		margin-right: 215px
+		border-radius: 10px
+.features
+	display: flex
+	justify-content: space-between
+	&__info
+		margin-bottom: 100px
+	&__title
+		margin-top: 118px
+		max-width: 570px
+		color: $blue
+		font-family: DM Sans
+		font-size: 42px
+		font-weight: 700
+	&__about
+		margin: 30px 0 48px 0
+		max-width: 556px
+		color: $lightgray
+		font-family: DM Sans
+		font-size: 22px
+		font-weight: 500
+	&__button
+		width: 160px
+		height: 50px
+		border-radius: 100px
+		border: none
+		background: rgb(233, 58, 125)
+	&__bottom
+		margin-top: 66px
+		display: flex
+		justify-content: space-between
+		column-gap: 86px
+		i
+			color: $lightgray
+			font-size: 50px
+	&__bostrap, &__html
+		max-width: 268px
+		&-title
+			margin: 42px 0 25px 0
+			color: $blue
+			font-family: DM Sans
+			font-size: 22px
+			font-weight: 500
+		&-about
+			color: $lightgray
+			font-family: DM Sans
+			font-size: 16px
+			font-weight: 400
+.forms
+	min-height: 750px
+	display: flex
+	justify-content: center
+	column-gap: 130px
+	text-align: center
+	&__top
+		width: 368px
+	&__title
+		margin-top: 216px
+		color: $blue
+		font-family: DM Sans
+		font-size: 42px
+		font-weight: 700
+	&__about
+		margin-top: 32px
+		color: $lightgray
+		font-family: DM Sans
+		font-size: 16px
+		font-weight: 400
+	&__bottom
+		position: relative
+		margin-top: 100px
+		width: 470px
+		height: 550px
+		background-color: $lightgray
+		border-radius: 10px
+		&-top
+			display: flex
+			justify-content: space-between
+	&__signup
+		padding: 25px 85px
+		width: 50%
+		border-bottom: 2px solid $blue
+		color: $blue
+		font-family: DM Sans
+		font-size: 14px
+		font-weight: 700
+		text-transform: uppercase
+	&__login
+		padding: 25px 85px
+		width: 50%
+		color: $lightgray
+		font-family: DM Sans
+		font-size: 14px
+		font-weight: 700
+		text-transform: uppercase
+	&__personal
+		display: flex
+		flex-direction: column
+		padding-top: 70px
+		row-gap: 40px
+		input
+			margin: 0 auto
+			width: 330px
+			height: 50px
+			padding: 12px 24px
+			border: 2px solid $lightgray
+			border-radius: 100px
+			background-color: rgba(0, 0, 0, 0.0)
+			text-align: left
+	&__line
+		display: inline-block
+		margin: 0 10px
+		width: 142px
+		height: 2px
+		border: 1px solid rgb(20, 20, 20)
+		opacity: 0.1
+	&__button
+		margin: 0 auto
+		width: 330px
+		height: 50px
+		border-radius: 100px
+		background: rgb(37, 218, 197)
+.button-color
+	background: rgb(29, 161, 242)
+.testimonilas
+	&__title
+		text-align: center
+		color: $blue
+		font-family: DM Sans
+		font-size: 42px
+		font-weight: 700
+	&__rewiew
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		gap: 30px
+	&__clients
+		display: flex
+		justify-content: center
+		column-gap: 30px
+		padding: 35px 28px 23px 35px
+		width: 470px
+		height: 238px
+		border: 2px solid $lightgray
+		border-radius: 10px
+		&:nth-child(-1n+2)
+			margin-top: 60px
+	&__img
+		width: 70px
+		height: 70px
+		border-radius: 10px
+	&__about
+		width: 308px
+		max-height: 128px
+		overflow: hidden
+		color: $lightgray
+		font-family: DM Sans
+		font-size: 18px
+		font-weight: 500
+	&__name
+		margin-top: 12px
+		color: $lightgray
+		font-family: DM Sans
+		font-size: 14px
+		font-weight: 700
+		text-transform: uppercase
+.footer
+	display: flex
+	justify-content: space-between
+	padding: 60px 0
+	&__startup
+		&-text
+			margin-top: 32px
+			max-width: 198px
+			height: 76px
+			color: $lightgray
+			font-family: DM Sans
+			font-size: 16px
+			font-weight: 400
+			overflow: hidden
+	&__about
+		&-list
+			display: flex
+			flex-direction: column
+			row-gap: 12px
+		&-text
+			margin-bottom: 32px
+			color: $blue
+			font-family: DM Sans
+			font-size: 18px
+			font-weight: 500
+	&__subscribe
+		input
+			width: 230px
+			height: 40px
+			padding: 10px 18px
+			border: 2px solid $lightgray
+			border-radius: 100px
+	&__button
+		width: 130px
+		height: 40px
+		border-radius: 100px
+		background: rgb(37, 218, 197)
+		border: none
+	&__icons
+		display: flex
+		justify-content: flex-start
+		column-gap: 34px
+		margin-top: 46px
